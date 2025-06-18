@@ -14,6 +14,5 @@ export default function Home() {
         <DynamicMap />
       </div>
     </div>
-
   );
 }
