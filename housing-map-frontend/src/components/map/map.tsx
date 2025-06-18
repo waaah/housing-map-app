@@ -22,7 +22,7 @@ export default function Map() {
     setHouses(getHouses());
   }, [])
 
-  return <MapContainer center={APP_CONFIG.DEFAULT.LOCATION} zoom={13} scrollWheelZoom={true} className="w-full h-full">
+  return <MapContainer center={APP_CONFIG.DEFAULT.LOCATION} zoom={13} scrollWheelZoom={true} className="w-full h-full  rounded-lg">
     <TileLayer
       attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
